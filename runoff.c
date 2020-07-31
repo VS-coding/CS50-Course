@@ -222,14 +222,11 @@ bool is_tie(int min)
         {
             return false;
         }
-        else if (candidates[i].eliminated == true)
-        {
-            //nothing
-        }
-        return true;
+        
+       
     }
     // TODO
-    return false;
+    return true;
 }
 
 // Eliminate the candidate (or candidates) in last place
